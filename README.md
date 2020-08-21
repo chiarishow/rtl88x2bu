@@ -133,6 +133,9 @@ require_ht=1
 ieee80211ac=1
 require_vht=1
 
+#This below will get you 300Mbps on 802.11n, it seems that this driver doesn't support 802.11ac yet 
+#ht_capab=[HT40+][SHORT-GI-20][SHORT-GI-40]
+
 #This below is supposed to get us 867Mbps and works on rtl8814au doesn't work on this driver yet
 #vht_oper_chwidth=1
 #vht_oper_centr_freq_seg0_idx=157
